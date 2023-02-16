@@ -44,7 +44,7 @@ namespace BlueGraph
                 #if UNITY_EDITOR 
                 return UnityEditor.Experimental.GraphView.ContentZoomer.DefaultMinScale; 
                 #else
-                return 1.0;
+                return 1.0f;
                 #endif
             } 
         }
@@ -60,7 +60,7 @@ namespace BlueGraph
                 #if UNITY_EDITOR 
                 return UnityEditor.Experimental.GraphView.ContentZoomer.DefaultMaxScale; 
                 #else
-                return 1.0;
+                return 1.0f;
                 #endif
             }
         }
