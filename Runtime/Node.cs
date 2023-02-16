@@ -98,6 +98,7 @@ namespace BlueGraph
             // to query port data during OnEnable.
             foreach (var port in ports)
             {
+                port.Node = this;
                 port.OnEnable();
             }
 
